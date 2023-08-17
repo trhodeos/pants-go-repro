@@ -1,0 +1,13 @@
+[GLOBAL]
+backend_packages = [
+  "pants.backend.experimental.go",
+]
+pants_version = "2.16.0"
+pantsd_max_memory_usage = "8GiB"
+
+[golang]
+minimum_expected_version = "1.20"
+# subprocess_env_vars.add = [
+#  "GOPRIVATE=gitlab.com/equilibrium-energy/*",
+#  "HOME",
+#]
